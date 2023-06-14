@@ -7,10 +7,17 @@
     <title>Vite App</title>
   </head>
   <body class="bg-red-500">
-    <p> Hola </p>
-    <div id="app"></div>
-    
-    <!--script type="module" src="src/main.js"></script-->
+    <div class="flex flex-col">
+      <h1>AI-Services</h1>
+      <div id="app"></div>
+       <div x-data="{ open: false }">
+         <button @click="open = ! open">Toggle Content</button>
+         <div x-show="open">
+            Content...
+         </div>
+       </div>
+       <!--script type="module" src="src/main.js"></script-->
+    </div>
     <script type="module" src="http://localhost:5173/@vite/client"></script>
     <script type="module" src="http://localhost:5173/main.js"></script>
   </body>

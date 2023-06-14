@@ -2,6 +2,10 @@
 import 'vite/modulepreload-polyfill'
 import './style.css'
 import javascriptLogo from './assets/javascript.svg'
+import Alpine from 'alpinejs'
+ 
+window.Alpine = Alpine
+Alpine.start()
 //import viteLogo from '../public/vite.svg'
 // import { setupCounter } from './counter.js'
 /*
@@ -27,3 +31,4 @@ setupCounter(document.querySelector('#counter'))
 */
 console.log("hello world")
 console.log(javascriptLogo)
+//console.log(window.Alpine)
