@@ -1,8 +1,10 @@
+// add the beginning of your app entry
+import 'vite/modulepreload-polyfill'
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
-
+import javascriptLogo from './assets/javascript.svg'
+//import viteLogo from '../public/vite.svg'
+// import { setupCounter } from './counter.js'
+/*
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -22,3 +24,6 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+*/
+console.log("hello world")
+console.log(javascriptLogo)
