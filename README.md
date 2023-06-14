@@ -7,15 +7,13 @@ It could be used for `frontend` part of the service.
 This template itsn't a pure vanilla project because it includes support for:
 
 - alpinejs
-- htmx
 - taildwindcss
 - polyfills
+- htmx [not added but should be easy to add]
 
 ## Quickstart
 
 A easy way to copy the files into your proyect is using [degit](https://github.com/Rich-Harris/degit).
-
-We will reproduce the example of https://github.com/nuxion/services/tree/main/example.
 
 1- We our project created the first step is clonning the frontend code:
 
@@ -34,7 +32,7 @@ content: ["./src/**/*.{html,js,svelte,ts}", "../<your-app>/templates/**/*.html"]
 
 ```
 cd front/
-yarn install
+npm install
 ```
 
 ## Testing template locally
@@ -53,7 +51,7 @@ Then in the browser go to the address served by `http-server`
 
 ## Resources
 
-- Tailwind was added using [svelte-add](https://github.com/svelte-add/)
 - [degit](https://github.com/Rich-Harris/degit).
 - [services tool](https://github.com/nuxion/services)
+- [backend integration](https://vitejs.dev/guide/backend-integration.html)
 

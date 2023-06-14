@@ -7,7 +7,7 @@ import legacy from '@vitejs/plugin-legacy'
 export default defineConfig({
   root: resolve('./src'),
   base: '/',
-  server: { origin: "http://localhost:8080" },
+  // server: { origin: "http://localhost:8080" }, // not needed
   plugins: [
     legacy({
       targets: ['defaults', 'not IE 11'],
