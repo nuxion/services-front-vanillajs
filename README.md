@@ -49,6 +49,12 @@ You will need to have both servers running:  vite server and http-server
 
 Then in the browser go to the address served by `http-server`
 
+## Working with fonts
+
+A place for inspiration is: https://docs.astro.build/en/guides/fonts/
+
+Thera two approachs, 1) downloading locally the font and linking it in the css files, or 2) using a library like https://fontsource.org/
+
 ## Resources
 
 - [degit](https://github.com/Rich-Harris/degit).
